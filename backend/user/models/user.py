@@ -3,7 +3,7 @@ from django.db import models
 
 
 class User(AbstractUser):
-    phone = models.CharField(max_length=16, blank=True, null=True, verbose_name='Телефон')
+    phone = models.CharField(max_length=16, blank=True, null=True, verbose_name='Phone')
 
     class Meta:
         verbose_name = 'User'

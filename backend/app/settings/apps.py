@@ -12,6 +12,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'oauth2_provider',
 ]
 
 PROJECT_APPS = [

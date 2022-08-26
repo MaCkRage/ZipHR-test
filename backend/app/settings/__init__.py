@@ -5,8 +5,10 @@ with contextlib.suppress(ImportError):
     load_dotenv(find_dotenv())  # load environment variables from .env when using pycharm
 
 from .apps import *
-from .base import *
-from .languages import *
-from .database import *
-from .path import *
 from .auth import *
+from .base import *
+from .database import *
+from .drf import *
+from .languages import *
+from .path import *
+from .social import *
