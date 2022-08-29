@@ -16,8 +16,10 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
+    'app',
     'api',
     'user',
+    'plane'
 ]
 
 INSTALLED_APPS = (VENDOR_APPS + DJANGO_APPS + PROJECT_APPS)

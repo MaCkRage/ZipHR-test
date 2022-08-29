@@ -6,7 +6,6 @@ RUN apt update && apt install -y gettext && apt install -y ffmpeg
 
 # На время разработки:
 RUN apt install -y vim
-# .
 
 WORKDIR /code
 COPY requirements.txt /code/
