@@ -9,7 +9,7 @@ def create_planes(count: int = 10):
 
 def create_admin():
     try:
-        User.objects.get(username='mac').delete()
+        User.objects.get(username='mac')
     except User.DoesNotExist:
         admin = User.objects.create_superuser(username='mac')
         admin.set_password('mac')
