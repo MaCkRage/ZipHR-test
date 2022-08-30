@@ -12,3 +12,4 @@ from .drf import *
 from .languages import *
 from .path import *
 from .social import *
+from .modules import *

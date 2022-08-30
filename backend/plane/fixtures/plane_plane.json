@@ -1,0 +1,9 @@
+[
+  {
+    "model": "plane.Plane",
+    "pk": 100500,
+    "fields": {
+      "tank_capacity": 200
+    }
+  }
+]

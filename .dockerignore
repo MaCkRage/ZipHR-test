@@ -1,0 +1,12 @@
+# Docs
+README.md
+docs/
+*.py[cod]
+__pycache__/
+.idea
+.env
+.vscode
+.history
+postgresql
+frontend/src/node_modules/
+venv

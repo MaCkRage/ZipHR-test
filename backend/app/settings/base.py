@@ -2,7 +2,6 @@ import os
 from .path import TEMPLATES_PATH
 
 DEBUG = bool(os.getenv('DEBUG'))
-TEST = bool(os.getenv('TEST'))
 
 AUTH_USER_MODEL = 'user.User'
 ALLOWED_HOSTS = ['*']
@@ -55,7 +54,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 if DEBUG:
     INTERNAL_IPS = [
-        '127.0.0.1',
+        '0.0.0.0',
     ]
     MIDDLEWARE += [
         'debug_toolbar.middleware.DebugToolbarMiddleware',
