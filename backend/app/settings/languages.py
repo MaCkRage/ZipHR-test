@@ -9,7 +9,7 @@ USE_L10N = True
 
 USE_TZ = False
 
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en'
 
 USE_DEFAULT_LANGUAGE_PREFIX = False
 

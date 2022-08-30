@@ -1,1 +1,1 @@
-from .owner_with_key import OwnerWithKeyPermission
+from app.permissions.allow_any import AllowAny

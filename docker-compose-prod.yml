@@ -20,3 +20,20 @@ services:
     image: redis:alpine
     ports:
       - '${REDIS_PORT}:${REDIS_PORT}'
+
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ['./code/docker-entrypoint.sh']
+    expose:
+      - 8080
+    env_file:
+      - .env
+    ports:
+      - '${APP_PORT}:${APP_PORT}'
+    depends_on:
+      - postgres
+    volumes:
+      - ./public:/code/public
+      - ./uploads:/code/uploads
