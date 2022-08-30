@@ -6,7 +6,7 @@ then
   echo "
   params of bulding:
     - test: web will start in global
-    - dev: web will start in container
+    - prod: web will start in container
   "
 
 elif [[ $BULD == "test" ]]; then
@@ -34,5 +34,5 @@ elif [[ $BULD == "prod" ]]; then
   docker-compose -f docker-compose-prod.yml build --progress=plain
   docker-compose -f docker-compose-prod.yml up -d
 else
-  echo "You need set a parameter test or dev. See --help"
+  echo "You need set a parameter test or prod. See --help"
 fi
