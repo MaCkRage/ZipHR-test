@@ -54,7 +54,7 @@ You never used `Swagger`? Sad, but not bad. This is a [perfect toolset](https://
 it, and you will fall in love with it, I'm sure!
 
 For sending request from task just click on blue button with get request like this
-`/product/{id}/fuel_consumption/`, than click on `Try it out` in the right part of the opened modal window,
+`/plane/{id}/fuel_consumption/`, than click on `Try it out` in the right part of the opened modal window,
 insert your values in Parameters form (read description to understand what is what) and click on big
 blue button "Execute". 
 
